@@ -1,9 +1,9 @@
 // MegaMart 코드
 var shopping_cart = []; // 장바구니 제품과 금액 합계를 담고 있는 전역 변수
-var shopping_cact_total = 0;
+var shopping_cart_total = 0;
 
 function add_item_to_cart(name, price) {
-  shopping_cact.push({
+  shopping_cart.push({
     // 장바구니에 제품을 담기 위해 cart 배열에 레코드를 추가
     name: name,
     price: price,
